@@ -65,9 +65,14 @@ public class StackLinkedList implements Stack {
 	}
 	
 	public void printStack() {
+		
+		String totalStack = "";
 		for (String element : linkedList) {
-			System.out.println(element);
+			totalStack += element;
+			totalStack += " ";
 		}
+		System.out.println(totalStack);
+		
 	}
 
 }

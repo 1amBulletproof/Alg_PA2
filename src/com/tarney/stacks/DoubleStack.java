@@ -2,8 +2,8 @@ package com.tarney.stacks;
 
 public class DoubleStack {
 	
-	private Stack stackA;
-	private Stack stackB;
+	private StackLinkedList stackA;
+	private StackLinkedList stackB;
 	
 	public DoubleStack() {
 		
@@ -67,11 +67,11 @@ public class DoubleStack {
 	}
 	
 
-	public Stack getStackA() {
+	public StackLinkedList getStackA() {
 		return stackA;
 	}
 
-	public Stack getStackB() {
+	public StackLinkedList getStackB() {
 		return stackB;
 	}
 	
