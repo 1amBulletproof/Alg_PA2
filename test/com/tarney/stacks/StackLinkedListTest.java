@@ -20,9 +20,7 @@ public class StackLinkedListTest {
 	
 	@Before
 	public void setup() {
-		
 		stack = new StackLinkedList();
-		
 	}
 
 	@Test

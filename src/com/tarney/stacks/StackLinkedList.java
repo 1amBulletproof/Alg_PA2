@@ -1,6 +1,8 @@
 /**
  * Stack based on Stack.java interface & using a Doubly-linked List
  * 
+ * stores string elements
+ * 
  * @author Tarney
  * @version 1.0 3/21/16
  */
@@ -13,22 +15,17 @@ public class StackLinkedList implements Stack {
 
 	private LinkedList<String> linkedList;
 	
-	public StackLinkedList() {
-		
-		linkedList = new LinkedList<>();
-		
+	public StackLinkedList() {	
+		linkedList = new LinkedList<>();	
 	}
 	
-	public StackLinkedList(LinkedList<String> list) {
-		
+	public StackLinkedList(LinkedList<String> list) {	
 		linkedList = list;
 	}
 	
 	@Override
 	public void push(String x) {
-		
 		linkedList.add(x);
-
 	}
 
 	@Override
@@ -43,9 +40,7 @@ public class StackLinkedList implements Stack {
 	
 	@Override
 	public String peek() {
-		
 		return (isEmpty() ? "FAILED PEEK: STACK EMPTY" : linkedList.getLast());
-		
 	}
 	
 	@Override
@@ -60,17 +55,19 @@ public class StackLinkedList implements Stack {
 	}
 
 	@Override
-	public boolean isEmpty() {
-		
+	public boolean isEmpty() {	
 		return ((getSize() == 0) ? true : false);
-		
 	}
 	
 	@Override
 	public int getSize() {
-		
 		return linkedList.size();
-		
+	}
+	
+	public void printStack() {
+		for (String element : linkedList) {
+			System.out.println(element);
+		}
 	}
 
 }
