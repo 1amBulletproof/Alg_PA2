@@ -22,45 +22,25 @@
  * suggestion for an improvement, please send email to
  * clrs-java-suggestions@mhhe.com.
  * 
- * Modified/used by Brandon Tarney for Johns Hopkins 605.421 Algorithms course
+ * Modified by Brandon Tarney for Johns Hopkins 605.421 Algorithms
  * 
  * @author Tarney
- * @version 2.0 3/21/16
+ * @version 1.0 3/21/2016
  *
  ***********************************************************************/
 
 package com.tarney.stacks;
 
-/** Interface for a stack. */
+/**
+ * Exception thrown in case of trying to pop an empty stack.
+ */
 
-public interface Stack
+public class StackUnderflowException extends RuntimeException
 {
-    /**
-     * Pushes an String onto the stack.
-     *
-     * @param x String to be pushed.
-     */
-    public void push(String x);
-
-    /** Pops an String from the stack, returning the popped String. */
-    public String pop();
-    
-    /** Returns the "top" String of the stack */
-    public String peek();
-    
-    /** Pops a given number of items from the stack and returns the last item popped */
-    public String multiPop(int howManyPops);
-
-    /** Returns <code>true</code> if the stack is empty,
-     * <code>false</code> otherwise. */
-    public boolean isEmpty();
-    
-    /** Get the size of the stack     */
-    public int getSize();
 }
 
-// $Id: Stack.java,v 1.1 2003/10/14 16:56:20 thc Exp $
-// $Log: Stack.java,v $
+// $Id: StackUnderflowException.java,v 1.1 2003/10/14 16:56:20 thc Exp $
+// $Log: StackUnderflowException.java,v $
 // Revision 1.1  2003/10/14 16:56:20  thc
 // Initial revision.
 //
