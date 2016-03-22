@@ -2,17 +2,9 @@ package com.tarney.sorts;
 
 import static org.junit.Assert.*;
 
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
-import static org.mockito.Matchers.notNull;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-
 import static org.hamcrest.core.Is.is;
-import static org.hamcrest.core.Is.isA;
 
 public class CustomDoubleTest {
 

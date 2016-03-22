@@ -65,7 +65,6 @@ public class DoubleStack {
 		}
 		
 	}
-	
 
 	public StackLinkedList getStackA() {
 		return stackA;
@@ -74,7 +73,5 @@ public class DoubleStack {
 	public StackLinkedList getStackB() {
 		return stackB;
 	}
-	
-	
 
 }
