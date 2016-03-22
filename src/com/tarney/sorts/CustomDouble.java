@@ -1,3 +1,13 @@
+/*
+ * Wrapper class for java primitive "double"
+ * 
+ * Can compare to another CustomDouble and 
+ * contains a key value which is a java primitive double
+ * 
+ * @author Brandon Tarney
+ * @version 1 3/21/2016
+ */
+
 package com.tarney.sorts;
 
 public class CustomDouble implements DoubleValued {

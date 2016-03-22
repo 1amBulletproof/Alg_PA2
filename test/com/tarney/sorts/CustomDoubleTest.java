@@ -28,6 +28,9 @@ public class CustomDoubleTest {
 		
 		doubleTest2 = new CustomDouble(0.6);
 		assertThat(doubleTest.compareTo(doubleTest2), is(-1));
+		
+		doubleTest2 = new CustomDouble(0.4);
+		assertThat(doubleTest.compareTo(doubleTest2), is(1));
 	}
 
 }
