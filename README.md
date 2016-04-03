@@ -14,7 +14,9 @@
  1. Q1: sort() in class "BucketSort.java"
  1. Q2: PushA(), PushB(), MultipopA(), MultipopB(), and Transfer() exist in "DoubleStack.java"
 1. **How-to run:** "MainPa2.java" in package "com.tarney.main" in the srcFolder "main"
-1. **Output:** Console output from "MainPa2.java" displays stackA and stackB after each method operation
+1. **Output:** Console output from "MainPa2.java" displays:
+ 1. A list of doubles before and after a bucket sort
+ 1. Two stacks, stackA and stackB, after each stack method operation
 1. **Input:** Hard-coded input in "MainPa2.java" (essentially an array of doubles for q1 and 2 stacks wrapped in the class "DoubleStack.java" for q2)
 1. **Unit tests:**
   - Unit tests require JUnit 4 & Hamcrest
