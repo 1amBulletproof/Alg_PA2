@@ -9,6 +9,7 @@ import com.tarney.stacks.DoubleStack;
 
 public class MainPa2 {
 	
+	//Runs the main program
 	public static void main(String[] args) {
 		
 		System.out.println("***Problem 1 Chapter 8 (b) Bucket-Sort***\n");
@@ -20,6 +21,12 @@ public class MainPa2 {
 		
 	}
 	
+	/*
+	 * tests Bucket Sort
+	 * 
+	 * @param	bucketSortValues	arary of doubles which will be sorted
+	 * @return
+	 */
 	private static void testBucketSort( double[] bucketSortValues) {
 		
 		LinkedList<DoubleValued> listToSort = new LinkedList<>();
@@ -33,6 +40,13 @@ public class MainPa2 {
 		
 	}
 
+	/*
+	 * Prints the contents of a list with a message
+	 * 
+	 * @param	message		message to be printed
+	 * @param	list		list of DoubleValued items
+	 * @return
+	 */
 	private static void displayList(String message, LinkedList<DoubleValued> list) {
 		
 		System.out.println(message);
@@ -43,6 +57,12 @@ public class MainPa2 {
 		
 	}
 
+	/*
+	 * Tests the functionality of 2 stacks
+	 * 
+	 * @param
+	 * @return
+	 */
 	public static void testStacks() {
 		
 		DoubleStack dblStack = new DoubleStack();
@@ -86,6 +106,13 @@ public class MainPa2 {
 		
 	}
 	
+	/*
+	 * Prints the contents of double stack
+	 * 
+	 * @param	whatDidYouDo	message describing most recent step
+	 * @param	dblStack		DoubleStack data structure containing 2 stack
+	 * @return
+	 */
 	public static void displayStacks(String whatDidYouDo, DoubleStack dblStack) {
 		
 		System.out.println(whatDidYouDo);

@@ -1,3 +1,10 @@
+/*
+ * Contains/wraps 2 stacks
+ * 
+ * @author Brandon Tarney
+ * @version 4/3/2016
+ */
+
 package com.tarney.stacks;
 
 public class DoubleStack {
